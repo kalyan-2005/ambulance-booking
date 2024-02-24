@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cl-internal-hegiim, .cl-internal-b3fm6y {
+    opacity: 0px;
+}
+body {
+    width: 80%;
+    margin: auto;
+}
+@media (max-width:500px) {
+    body {
+        width: 100%;
+    }
+    .search-map-wrap {
+        flex-wrap: wrap;
+    }
+}
